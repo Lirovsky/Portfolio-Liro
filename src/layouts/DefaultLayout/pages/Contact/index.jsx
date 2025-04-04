@@ -35,7 +35,7 @@ export default function Contact() {
                 />
                 <Link
                   icon={<FaFileAlt />}
-                  url="https://drive.google.com/file/d/1frqqomn-WWPUEGQJWzb-33YtWxHgBLU9/view?usp=drive_link"
+                  url="https://drive.google.com/file/d/10C8bYC4vNn83R-vDSkqxt2JPi-h0ECfQ/view?usp=drive_link"
                   title="Curriculo"
                 />
               </ul>
