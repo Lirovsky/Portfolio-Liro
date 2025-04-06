@@ -23,16 +23,17 @@ export default function Home() {
   ];
 
   return (
-    <div className="flex min-h-screen items-center justify-center text-gray-300 dark:text-cyan-400">
+    <div className="flex min-h-screen items-center justify-center overflow-hidden text-gray-300 dark:text-cyan-400">
       <div className="mb-10 mt-28 flex w-11/12 flex-col items-center justify-center rounded-banner bg-black/40 p-14 text-3xl shadow-orange sm:items-start lg:p-24 dark:bg-black/70 dark:shadow-cyan">
-        <h1 className="bg-gradient-to-r from-red-500 from-10% via-orange-400 via-30% to-yellow-200 to-90% bg-clip-text font-bebas text-6xl font-bold leading-11 text-transparent md:text-8xl md:leading-12 lg:text-12xl lg:leading-13 dark:from-indigo-500 dark:via-sky-500 dark:to-emerald-500">
+        <h1 className="animate-typing bg-gradient-to-r from-red-500 from-10% via-orange-400 via-30% to-yellow-200 to-90% bg-clip-text font-bebas text-6xl font-bold leading-11 text-transparent md:text-8xl md:leading-12 lg:text-12xl lg:leading-13 dark:from-indigo-500 dark:via-sky-500 dark:to-emerald-500">
           Desenvolvedor
         </h1>
         <div className="flex flex-col items-center sm:flex-row">
-          <h1 className="bg-gradient-to-r from-red-500 from-10% via-orange-400 via-30% to-yellow-200 to-90% bg-clip-text font-bebas text-6xl font-bold leading-11 text-transparent md:text-8xl md:leading-12 lg:text-12xl lg:leading-13 dark:from-indigo-500 dark:via-sky-500 dark:to-emerald-500">
+          <h1 className="animate-typing bg-gradient-to-r from-red-500 from-10% via-orange-400 via-30% to-yellow-200 to-90% bg-clip-text font-bebas text-6xl font-bold leading-11 text-transparent md:text-8xl md:leading-12 lg:text-12xl lg:leading-13 dark:from-indigo-500 dark:via-sky-500 dark:to-emerald-500">
             Frontend
           </h1>
-          <div className="mt-5 flex sm:mt-0">
+
+          <div className="animate-fadein mt-5 flex sm:mt-0">
             {links.map((item) => (
               <a
                 href={item.link}
@@ -45,7 +46,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-        <p className="mt-5 hidden w-9/12 text-xl sm:block lg:w-8/12 lg:text-2xl">
+        <p className="animate-slideinup mt-5 hidden w-9/12 text-xl sm:block lg:w-8/12 lg:text-2xl">
           Olá!! Eu sou o Pablo. Tenho 26 anos e sou um desenvolvedor frontend
           com 1 ano de experiência trabalhando como freelancer na área.
         </p>

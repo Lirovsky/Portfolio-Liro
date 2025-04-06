@@ -66,7 +66,7 @@ export default function DefaultLayout() {
             )}
           </NavLink>
           <button
-            className="rounded-full border-4 border-gray-300 px-2 py-1 hover:border-orange-500 hover:bg-transparent focus:ring-transparent dark:border-cyan-400 dark:hover:border-purple-700 dark:hover:bg-transparent dark:focus:ring-transparent"
+            className="animate-fablink rounded-full border-4 border-gray-300 px-2 py-1 hover:border-orange-500 hover:bg-transparent focus:ring-transparent dark:border-cyan-400 dark:hover:border-purple-700 dark:hover:bg-transparent dark:focus:ring-transparent"
             onClick={toggleDarkMode}
           >
             {darkMode ? (

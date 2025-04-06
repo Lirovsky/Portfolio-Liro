@@ -11,7 +11,7 @@ import {
 export default function ProjectCarousel() {
   return (
     <Flowbite theme={{ theme: customTheme }}>
-      <div className="h-72 w-full rounded-lg shadow-orange sm:h-64 lg:h-80 2xl:h-96 dark:shadow-cyan">
+      <div className="animate-slideinright3 h-72 w-full rounded-lg shadow-orange sm:h-64 lg:h-80 2xl:h-96 dark:shadow-cyan">
         <Carousel theme={customTheme}>
           <Cards
             id={1}

@@ -12,12 +12,12 @@ import Link from "./components/Link";
 
 export default function Contact() {
   return (
-    <div className="flex min-h-screen items-center justify-center text-gray-200 dark:text-cyan-400">
+    <div className="flex min-h-screen items-center justify-center overflow-hidden text-gray-200 dark:text-cyan-400">
       <div className="mb-10 mt-28 flex w-11/12 flex-col items-center justify-evenly rounded-banner bg-black/40 py-14 text-3xl shadow-orange sm:flex-row lg:py-24 dark:bg-black/70 dark:shadow-cyan">
         <div className="flex flex-col gap-y-8 sm:flex-row sm:gap-x-8 md:flex-col">
           <div className="flex pb-5 md:border-none md:pb-0">
-            <div className="flex flex-col">
-              <h2 className="mb-4 flex pb-1 font-bebas text-3xl font-bold tracking-wider md:text-4xl">
+            <div className="animate-slideindown2 flex flex-col">
+              <h2 className="animate-fadein2 mb-4 flex pb-1 font-bebas text-3xl font-bold tracking-wider md:text-4xl">
                 Contato
                 <FaPhoneAlt className="ms-5 text-orange-500 dark:text-purple-700" />
               </h2>
@@ -41,9 +41,9 @@ export default function Contact() {
               </ul>
             </div>
           </div>
-          <div className="flex pb-5 md:border-none md:pb-0">
+          <div className="animate-slideinup flex pb-5 md:border-none md:pb-0">
             <div className="flex flex-col">
-              <h2 className="mb-4 flex pb-1 font-bebas text-3xl font-bold tracking-wider md:text-4xl">
+              <h2 className="animate-fadein2 mb-4 flex pb-1 font-bebas text-3xl font-bold tracking-wider md:text-4xl">
                 Social
                 <FaPeopleGroup className="ms-5 text-orange-500 dark:text-purple-700" />
               </h2>
@@ -68,7 +68,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="bg-lightcontato2 dark:bg-darkcontato2 hidden h-96 w-5/12 rounded-3xl bg-cover bg-center shadow-orange md:block dark:shadow-cyan"></div>
+        <div className="animate-slideinright hidden h-96 w-5/12 rounded-3xl bg-lightcontato2 bg-cover bg-center shadow-orange transition duration-700 hover:rotate-[360deg] md:block dark:bg-darkcontato2 dark:shadow-cyan"></div>
       </div>
     </div>
   );
