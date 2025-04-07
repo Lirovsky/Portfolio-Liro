@@ -19,7 +19,7 @@ export function ProgressBars() {
   return (
     <Flowbite theme={{ theme: customTheme }}>
       <div className="gap-x-10 text-xl md:flex">
-        <div className="animate-fadein2 w-full">
+        <div className="w-full animate-fadein2">
           <Bar
             title="HTML"
             icon={<FaHtml5 />}
@@ -56,7 +56,7 @@ export function ProgressBars() {
             text="text-red-400 dark:text-red-500 animate-slideinright5"
           />
         </div>
-        <div className="animate-fadein2 w-full">
+        <div className="w-full animate-fadein2">
           <Bar
             title="React"
             icon={<FaReact />}
@@ -69,28 +69,28 @@ export function ProgressBars() {
             icon={<RiTailwindCssFill />}
             progress={90}
             color="cyan2"
-            text="text-cyan-400 dark:text-cyan-600 md:animate-slideinright1 animate-slideinright7"
+            text="text-cyan-400 dark:text-cyan-600 md:animate-slideinright2 animate-slideinright7"
           />
           <Bar
             title="Git + GitHub"
             icon={<FaGithub />}
             progress={90}
             color="pink"
-            text="text-pink-500 dark:text-pink-600 md:animate-slideinright2 animate-slideinright8"
+            text="text-pink-500 dark:text-pink-600 md:animate-slideinright3 animate-slideinright8"
           />
           <Bar
             title="Cypress"
             icon={<SiCypress />}
             progress={50}
             color="green"
-            text="text-green-500 dark:text-green-500 md:animate-slideinright3 animate-slideinright9"
+            text="text-green-500 dark:text-green-500 md:animate-slideinright4 animate-slideinright9"
           />
           <Bar
             title="Figma"
             icon={<FaFigma />}
             progress={70}
             color="lime"
-            text="text-lime-400 dark:text-lime-500 md:animate-slideinright4 animate-slideinright10"
+            text="text-lime-400 dark:text-lime-500 md:animate-slideinright5 animate-slideinright10"
           />
         </div>
       </div>
